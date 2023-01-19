@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Gelato</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="#" alt="">
+        <ul class="nav-links">
+            <li><a href="#"></a>Novedades</li>
+            <li><a href="#"></a>Nosotros</li>
+            <li><a href="#"></a>Galeria</li>
+            <li class="ctnn"><a href="#"></a>Contacto</li>
+        </ul>
+        <img src="/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+
+    <header>
+        <div class="header-content">
+            <h1>Gelato</h1>
+            <div class="line"></div>
+            <h2>Los sabores de la nona</h2>
+        </div>
+    </header>
+
+
+
+    <section class="news">
+        <div class="title">
+            <h2>Próximas novedades</h2>
+            <div class="line"></div>
+        </div>
+        <div class="news-content">
+            <div class="news-news">
+                <img class="img-img" src="/img/paletas-heladas.jpg" alt="">
+                <h4>Nuevas paletas heladas</h4>
+                <p>Veni a disfrutar de nuestros nuevos sabores que son simplemente <br> I-RRE-SIS-TI-BLES.</p>
+                <a href="#" class="ctn">Leer más</a>
+            </div>
+            <div class="news-news">
+                <img class="img-img" src="/img/sabores-frutales.jpg" alt="">
+                <h4>Sabores aptos</h4>
+                <p>Nueva linea de productos aptos para personas con alergias e intolerancia a ciertos alimentos.</p>
+                <a href="#" class="ctn">Leer más</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about">
+        <div class="about-content">
+            <h2>Sobre nosotros</h2>
+            <div class="line"></div>
+            <p>Es un negocio familiar donde nos dedicamos a la elaboración artesanal y a la venta de productos de heladería. La variedad y calidad de nuestros productos han sido factores inalterables a través de los años. Asimismo, la atención personalizada que ofrecemos son elementos relevantes para todos nuestros clientes</p>
+        </div>
+    </section>
+    
+    
+    
+    <section class="gallery-content">
+        <h2>Galeria de fotos</h2>
+        <div class="line"></div>
+        <div class="gallery">
+            <img src="/img/img-1.jpg" alt="">
+            <img src="/img/img-2.jpg" alt="">
+            <img src="/img/img-3.jpg" alt="">
+            <img src= "img/img-4.jpg" alt="">
+            <img src="/img/img-5.jpg" alt="">
+            <img src="/img/img-6.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <form class="formulario">
+        <h2>Registrarse</h2>
+        <div class="line"></div>
+        <div class="form-content">
+            <div class="input">
+                <i class="fa-solid fa-users icon"></i>
+                <input type="text" placeholder="Nombre Completo">
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico">
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-key icon"></i>
+                <input type="password" placeholder="Contraseña">
+            </div>
+            <input type="submit" value="registrate" class="form-button">
+            <p>Al registrarte, aceptas nuestras condiciones de uso y política de privacidad.</p>
+            <p>¿Ya tienes una cuenta? <a class="link"  href="login.html">Iniciar sesión</a></p>
+        </div>
+    </form>
+    
+    
+    
+    <footer class="main__social container" id="4">
+        <ul class="social__list">
+            <li class="social"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li class="social"><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        <p class="social__parr"> &copy Gelato </p>
+    </footer>
+   
+    
+    
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{ 
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
