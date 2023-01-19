@@ -444,11 +444,18 @@ p {
     .nav-links li {
         margin: 30px auto;
         color: var(--light-gray);
+        font-size: 5vmin;
     }
     .news-news img {
+        width: 300px;
         margin-right: 40px;
     } 
+    .about-content {
+        width: 100%;
+    }
     .formulario {
+        background-image: none;
+        background-color: var(--light-gray);
         width: 100%;
         height: auto;
     }
