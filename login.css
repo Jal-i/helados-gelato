@@ -134,9 +134,12 @@ p {
     
     .form-content {
         margin: auto;
-        width: 80%;
+        width: 85%;
         height: 400px;
-        margin-top: 40px;
+        margin-top: 60px;
+    }
+    p {
+        margin-right: 30px;
     }
 
 }  
