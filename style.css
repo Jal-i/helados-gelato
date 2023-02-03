@@ -447,7 +447,9 @@ p {
         color: var(--light-gray);
         font-size: 5vmin;
     }
-
+    .news-news img {
+        margin-right: 30px;
+    }
     .about-content {
         width: 100%;
     }
