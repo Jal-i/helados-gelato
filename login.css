@@ -13,16 +13,17 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url(/img/fondo16.jpg);
+    background-image: url(/img/fondo03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 35px;
 }
 
 .formulario {
@@ -30,16 +31,15 @@ main {
 }
 
 .formulario h2 {
-    font-size: 7vmin;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--light-gray);
     font-family: 'Open Sans', sans-serif;
+    font-size: 7vmin;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin-top: 25px;
 }
 
 .line {
@@ -51,7 +51,7 @@ main {
     margin-bottom: 35px;
 }
 
-.form-content {
+.form-content{
     width: 600px;
     height: 350px;
     display: block;
@@ -60,6 +60,7 @@ main {
     padding-top: 25px;
     padding-left: 30px;  
     backdrop-filter: blur(50px);
+    border-radius: 15px;
 }
 
 input[type="text"],
@@ -67,7 +68,6 @@ input[type="password"] {
     width: 75%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 15px;
     padding-bottom: 10px;
     margin-top: 25px;
     padding-left: 15px;
@@ -76,14 +76,14 @@ input[type="password"] {
     border: 1px solid var(--turquoise)
 }
 
-.input {
+.input-content{
     margin-bottom: 15px;
 }
 
 .icon {
     font-size: 20px;
     text-align: center;
-    color: #023641;
+    color: var(--light-gray);
     padding-right: 15px;
 }
 
@@ -127,9 +127,19 @@ p {
 }
 
 .link:hover {
-    color: var(--light-gray);
+    color: var(--light-gray)
 }
 
 
+/* @media screen and (max-width:250px) {
+    .formulario {
+        margin: auto;
+        width: 200px;
+        margin-top: 50px;
+    }
 
+    input{
+        width: 50%;
+    }
+}  */
 
